@@ -1,0 +1,67 @@
+#registrationForm {
+    border: solid 0.6rem;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 40px 40px;
+    width: 80vh;
+    height: 70vh;
+    overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.formHeader {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+label {
+    font-size: 2.5rem;
+}
+
+form hr {
+    border: 0.25rem solid black;
+    margin-bottom: 4rem;
+}
+
+#registrationForm .input-box {
+    width: 100%;
+    height: 5rem;
+    margin: 2rem 0 2rem 0;
+    background-color: transparent;
+}
+
+#registrationForm input {
+    width: 100%;
+    height: 100%;
+    padding: 2rem 4.5rem 2rem 2rem;
+    font-size: 2rem;
+
+    background: rgba(0,0,0,0.6);
+    border: 2px solid rgba(40, 40, 40, 0.4);
+    outline: none;
+    border-radius: 3rem;
+}
+#registrationForm input::placeholder {
+    color: white;
+}
+
+#registrationForm button {
+    background-color: rgb(97, 156, 170);
+    color:#111111;
+    padding: 1rem;
+    font-size: 2.5rem;
+    text-decoration: none; 
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+#registrationForm #submission {
+    display: block;
+    margin: 0 auto;
+}
+
+.formTip {
+    margin-top: 1rem;
+}
